@@ -15,7 +15,7 @@ A lightweight, AI-powered web app to **instantly generate creative startup ideas
 
 | 💡 Input Form | ⚡ Generated Result |
 |--------------|--------------------|
-| ![input](https://via.placeholder.com/300x160.png?text=Industry+%2B+Trend+Form) | ![output](https://via.placeholder.com/300x160.png?text=Generated+Startup+Idea) |
+
 
 > **Example**  
 > 🏭 **Industry**: Food  
@@ -42,3 +42,35 @@ A lightweight, AI-powered web app to **instantly generate creative startup ideas
 ```bash
 git clone https://github.com/MuhammedRefaatMetwally/startup_generator.git
 cd startup_generator
+
+2. Install dependencies
+bash
+Copy
+Edit
+npm install
+3. Add your OpenAI API key
+Create a .env file at the root:
+
+ini
+Copy
+Edit
+VITE_OPENAI_API_KEY=your_openai_key_here
+🔐 Be sure to add .env to .gitignore!
+
+4. Run the development server
+bash
+Copy
+Edit
+npm run dev
+The app will run on http://localhost:5173
+
+💡 Technologies Used
+React (w/ Vite)
+
+OpenAI API (GPT-4o-mini)
+
+CSS  Tailwind
+
+Environment Variables for secure API key usage
+
+
